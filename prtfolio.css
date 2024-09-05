@@ -1,0 +1,70 @@
+body{
+    background-color: #f2dce8;
+    font-family: Arial, sans-serif;
+    }
+
+
+
+header{
+    background-color:#faeef2;
+    padding: 10px;
+    text-align: center;
+    margin-bottom: 15px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    width: 100%; 
+    box-sizing: border-box; 
+}
+header img {
+    width: 100px; 
+    height: auto;
+}
+
+#about{
+   
+    border-radius: 5px;       
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.2);
+    padding: 20px;            
+    margin: 20px;     
+}
+
+#projects{
+    
+    border-radius: 10px;       
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.2); 
+    padding: 20px;           
+    margin: 20px;   
+}
+.project{
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    
+   
+}
+.tech-blue{
+    color: blue;
+}
+
+footer{
+    background-color: #faeef2;
+    box-shadow: 0 5px 50px rgba(0, 0, 0, 0.2);
+    color: #020e0d;
+    text-align: center;
+    padding: 0px;
+    width: 100%; /* Ensures the footer covers 100% width */
+    box-sizing: border-box; /* Includes padding in the element's total width and height */
+}
+footer a{
+    text-decoration: none;
+}
+footer img{
+    height:50px;
+    width:50px;
+    vertical-align:middle;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+}
